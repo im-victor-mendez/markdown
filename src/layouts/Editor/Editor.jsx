@@ -1,3 +1,4 @@
+import TopLayout from '../../components/TopLayout/TopLayout'
 import './Editor.scss'
 
 function Editor({ text, setText }) {
@@ -8,10 +9,7 @@ function Editor({ text, setText }) {
 
     return (
         <section id='editor-layout'>
-            <div className='top-layout'>
-                <h1>Editor</h1>
-                <button className='top-button'>Resize</button>
-            </div>
+            <TopLayout name={`Editor`} />
             <textarea id='editor' onChange={(event) => onChange(event)} value={text}></textarea>
         </section>
     )
