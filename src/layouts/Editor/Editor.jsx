@@ -9,8 +9,8 @@ function Editor({ text, setText }) {
 
     return (
         <section id='editor-layout'>
-            <TopLayout name={`Editor`} />
             <textarea id='editor' onChange={(event) => onChange(event)} value={text}></textarea>
+            <TopLayout id={'editor'} name={`Editor`} />
         </section>
     )
 }
