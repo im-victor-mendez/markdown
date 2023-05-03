@@ -1,3 +1,4 @@
+import './App.scss'
 import { useState } from "react"
 import Editor from "./layouts/Editor/Editor"
 import Preview from "./layouts/Preview/Preview"

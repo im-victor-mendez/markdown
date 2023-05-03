@@ -1,0 +1,15 @@
+#editor-layout {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+
+    #editor {
+        background-color: var(--light-cyan);
+        resize: vertical;
+        min-height: 15rem;
+
+        border: 1px solid black;
+        border-top: 0;
+    }
+}
